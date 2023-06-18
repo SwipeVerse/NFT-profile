@@ -1,6 +1,17 @@
 {
+  "name": "fairplay",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "compile": "npx hardhat test",
+    "test": "npx hardhat test",
+    "test-add-user": "npx hardhat run scripts/add-user.ts"
+  },
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^2.0.2",
     "hardhat": "^2.14.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.8.3"
   }
 }
